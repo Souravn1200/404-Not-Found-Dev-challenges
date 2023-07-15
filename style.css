@@ -86,3 +86,59 @@ padding-left: 20px;
 margin-top: 5px;
 
 }
+
+@media only screen and (max-width: 576px){
+    .container{
+        display: grid;
+        grid-template-areas: 
+        
+        "pnf pnf pnf pnf"
+        "img img img img"
+        "tarea tarea tarea tarea";
+        gap: 20px;
+        padding-left: 15px;
+       
+    }
+
+    .not-found-and-image-section img{
+
+        width: 225px;
+        height: 335px;
+        margin: auto;
+        float: left;
+       
+    }
+
+
+    .text-section h1{
+        font-size: 25px;
+        }
+        
+        .text-section h4{
+           
+        
+        font-size: 15px;
+
+        }
+        
+        .text-section .btn{
+            width: 170px;
+        height: 68px;
+        background: var(--gray-1, #333);
+        color: #FFF;
+        font-size: 14px;
+        margin:auto;
+        float: left;
+        
+        }
+        
+        .pnf{
+            height: auto;
+            width: auto;
+        font-size: 12px;
+        padding-left: 20px;
+        margin-top: 5px;
+        
+}
+
+}
