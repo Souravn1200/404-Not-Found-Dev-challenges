@@ -1,0 +1,88 @@
+*{
+background: #FFF;
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    
+    "pnf pnf pnf pnf"
+    "img img tarea tarea"
+    "img img tarea tarea";
+    row-gap: 45px;
+    column-gap: 20px;
+    
+}
+
+.container>div {
+    text-align: center;
+}
+
+.pnf{
+    grid-area: pnf;
+}
+
+.not-found-and-image-section{
+    grid-area: img;
+    
+}
+
+.text-section{
+    grid-area: tarea;
+}
+
+.not-found-and-image-section img{
+
+    width: 539.224px;
+    height: 414.249px;
+   
+}
+
+.text-section h1{
+color: var(--gray-1, #333);
+font-family: Space Mono;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -2.24px;
+text-align: left;
+}
+
+.text-section h4{
+    width: 586px;
+    color: var(--gray-2, #4F4F4F);
+font-family: Space Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.84px;
+text-align: left;
+}
+
+.text-section .btn{
+    width: 216px;
+height: 68px;
+background: var(--gray-1, #333);
+color: #FFF;
+width: 15vw;
+margin-left: calc(50% - 59vw);
+
+}
+
+.pnf{
+    color: #333;
+font-family: Inconsolata;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.92px;
+text-transform: uppercase;
+padding-left: 20px;
+margin-top: 5px;
+
+}
